@@ -7,6 +7,8 @@ the awesome onedark colors.
 
 > This is my custom build for the onedarker colorscheme
 
+![onedarker-2][./screenshots/onedarker_2.png]
+
 ## External plugins support
 
 This colorscheme has support for this plugins:
@@ -88,3 +90,8 @@ You can active it with lua like this:
 ```lua
 require'onedarker.evil_lualine'
 ```
+
+## Screenshots
+
+![onedarker-1](./screenshots/onedarker_1.jpeg)
+![onedarker-2](./screenshots/onedarker_2.png)
