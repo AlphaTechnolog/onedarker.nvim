@@ -4,6 +4,7 @@ Onedarker is a beautiful custom theme based on
 the awesome onedark colors.
 
 > This colorscheme is extracted from the lunarvim project
+
 > This is my custom build for the onedarker colorscheme
 
 ## Getting started
