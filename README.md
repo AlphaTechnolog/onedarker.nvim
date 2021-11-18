@@ -7,6 +7,20 @@ the awesome onedark colors.
 
 > This is my custom build for the onedarker colorscheme
 
+## External plugins support
+
+This colorscheme has support for this plugins:
+
+- Treesitter
+- diff
+- Git
+- highlights
+- LSP
+- markdown
+- Notify
+- palette
+- Whichkey
+
 ## Getting started
 
 To use this you can use `vim-plug`, `packer`, etc.
@@ -59,23 +73,18 @@ vim.g.onedarker_italic_variables = true
 
 ### With vim script
 
-```vi
+```vim
 let g:onedarker_transparent_background = true
 let g:onedarker_italic_keywords = true
 let g:onedarker_italic_function = false
 let g:onedarker_italic_variables = true
 ```
 
-## External plugins support
+## Evil Lualine
 
-This colorscheme has support for this plugins:
+I have a preincorpored lualine config for make more beautiful (my own style for lualine).
+You can active it with lua like this:
 
-- Treesitter
-- diff
-- Git
-- highlights
-- LSP
-- markdown
-- Notify
-- palette
-- Whichkey
+```lua
+require'onedarker.evil_lualine'
+```
