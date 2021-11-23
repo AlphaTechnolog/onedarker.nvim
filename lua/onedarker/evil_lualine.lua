@@ -1,7 +1,9 @@
 -- Eviline config for lualine
 -- Author: shadmansaleh
+-- Customizing layer for onedarker author: AlphaTechnolog
 -- Credit: glepnir
 local lualine = require 'lualine'
+local C = require 'onedarker.palette'
 
 -- Color table for highlights
 -- stylua: ignore
