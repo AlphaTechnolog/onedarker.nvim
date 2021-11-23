@@ -1,9 +1,9 @@
 local colors = {
   none = "NONE",
   fg = "#abb2bf",
-  bg = "#1E2028",
-  alt_bg = "#1E2028",
-  dark = "#1E2028",
+  bg = "#1C1F26",
+  alt_bg = "#1C1F26",
+  dark = "#1C1F26",
   accent = "#BBBBBB",
   dark_gray = "#2a2f3e",
   fg_gutter = "#353d46",
