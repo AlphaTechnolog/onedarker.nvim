@@ -17,10 +17,10 @@ end
 
 config = {
   transparent_background = opt("onedarker_transparent_background", false),
-  italic_comments = opt("onedarker_italic_keywords", true) and "italic" or "NONE",
-  italic_keywords = opt("onedarker_italic_keywords", true) and "italic" or "NONE",
+  italic_comments = opt("onedarker_italic_comments", true) and "italic" or "NONE",
+  italic_keywords = opt("onedarker_italic_keywords", false) and "italic" or "NONE",
   italic_functions = opt("onedarker_italic_function", false) and "italic" or "NONE",
-  italic_variables = opt("onedarker_italic_variables", true) and "italic" or "NONE",
+  italic_variables = opt("onedarker_italic_variables", false) and "italic" or "NONE",
 }
 
 return config
