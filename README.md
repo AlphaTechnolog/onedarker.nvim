@@ -70,7 +70,7 @@ these variables
 vim.g.onedarker_transparent_background = true
 vim.g.onedarker_italic_comments = true
 vim.g.onedarker_italic_keywords = true
-vim.g.onedarker_italic_function = true
+vim.g.onedarker_italic_functions = true
 vim.g.onedarker_italic_variables = true
 ```
 
@@ -80,7 +80,7 @@ vim.g.onedarker_italic_variables = true
 let g:onedarker_transparent_background = true
 let g:onedarker_italic_comments = true
 let g:onedarker_italic_keywords = true
-let g:onedarker_italic_function = true
+let g:onedarker_italic_functions = true
 let g:onedarker_italic_variables = true
 ```
 
