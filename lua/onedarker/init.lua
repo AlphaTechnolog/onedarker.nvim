@@ -17,6 +17,7 @@ local Notify = require "onedarker.Notify"
 local Git = require "onedarker.Git"
 local LSP = require "onedarker.LSP"
 local diff = require "onedarker.diff"
+local NvimTree = require "onedarker.nvim-tree"
 
 local skeletons = {
   highlights,
@@ -27,6 +28,7 @@ local skeletons = {
   Git,
   LSP,
   diff,
+  NvimTree,
 }
 
 for _, skeleton in ipairs(skeletons) do
