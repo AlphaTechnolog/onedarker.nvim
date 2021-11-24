@@ -4,11 +4,12 @@
 -- Credit: glepnir
 local lualine = require 'lualine'
 local C = require 'onedarker.palette'
+local Config = require 'onedarker.config'
 
 -- Color table for highlights
 -- stylua: ignore
 local colors = {
-  bg       = C.bg,
+  bg       = Config.transparent_background and "NONE" or C.bg,
   fg       = C.fg,
   yellow   = C.yellow,
   cyan     = C.cyan,
