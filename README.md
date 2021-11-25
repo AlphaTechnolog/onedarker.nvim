@@ -95,5 +95,5 @@ require'onedarker.evil_lualine'
 
 ## Screenshots
 
-![onedarker-1](./screenshots/onedarker_1.jpeg)
+![onedarker-1](./screenshots/onedarker_1.png)
 ![onedarker-2](./screenshots/onedarker_2.png)
